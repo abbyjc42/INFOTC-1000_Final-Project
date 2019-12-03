@@ -4,9 +4,9 @@ My name is Abby, and I am an 18-year-old freshman at the University of Missouri.
 
 ---
 #### [My Life](My_Life.md)
-#### Education
-#### My History With Coding
-#### Hobbies and Interests
-- ##### Gallery
+#### [Education](Education.md)
+#### [My History With Coding](My_History_With_Coding.md)
+#### [Hobbies and Interests](Hobbies_and_Interests.md)
+- ##### [Gallery](Gallery.md)
 #### Misc.
 #### Plans for the Future
