@@ -10,4 +10,4 @@ This program included chemistry and math preparation, as well as a condensed pub
 
 At the time of writing this I am finishing up the Fall 2019 semester at Mizzou.
 
-[_<<Back_](My_Life.md "back to my life") [Home](README.md "homepage") [_Next>>_](Volunteerwork_and_Community_Involvement "volunteering and etc.")
+[_<<Back_](My_Life.md "my life") [Home](README.md) [_Next>>_](Volunteerwork_and_Community_Involvement.md "volunteering and etc.")
