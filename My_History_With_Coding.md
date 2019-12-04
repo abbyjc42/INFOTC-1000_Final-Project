@@ -8,4 +8,4 @@ In 2011 I discovered Scratch, a free software developed at MIT as a way to get y
 
 At this point, I have had a little bit of experience with HTML and Javascript, and have the most experience in Python since that's the primary language I've been learning to code in.
 
-[_<<Back_](Volunteerwork_and_Community_Involvement.md "volunteerwork and etc.") [Home](README.md) [_Next>>_](Interests_and_Hobbies.md "interests and hobbies")
+[_<<Back_](Volunteerwork_and_Community_Involvement.md "volunteerwork and etc.") [Home](README.md) [_Next>>_](Hobbies_and_Interests.md "hobbies and interests")
