@@ -8,4 +8,65 @@ In 2011 I discovered Scratch, a free software developed at MIT as a way to get y
 
 At this point, I have had a little bit of experience with HTML and Javascript, and have the most experience in Python since that's the primary language I've been learning to code in.
 
+Here a really simple example program of the kind of thing that I wanted to be able to make when I was younger. There's a lot of room for expanding the existing features and adding more, as well as improving the code itself. This just produces a character with a randomly generated gender, name, age, occupation, and a few traits:
+
+```python
+
+import random
+
+def main():
+    generate_character = 'y'
+    while generate_character.lower() == 'y':
+        
+        firstnames_f = ['Alice', 'Bella', 'Crystal', 'Diane', 'Elaine', 'Fiona', 'Ginny', 'Haley', 'Ivy', 'Jo', 'Kelsey', 'Lily', 
+        'Monica', 'Nancy', 'Opal', 'Peggy', 'Regina', 'Sally', 'Tiana', 'Veronica', 'Wendy', 'Xara', 'Yolanda', 'Zinnia']
+        firstnames_m = ['Alexander', 'Bill', 'Clive', 'Derick', 'Elliott', 'Fred', 'Greg', 'Hal', 'Ivan', 'Jared', 'Kent', 'Lyle', 
+        'Mark', 'Nathan', 'Peter', 'Quinn', 'Ryan',
+        'Steve', 'Tom', 'Uriah', 'Vincent', 'Wendell', 'Xavier', 'Zane']
+        surnames = ['Anderson', 'Barton', 'Caldwell', 'Davis', 'Frank', 'Goldwell', 'Henderson', 'Ingrit', 'Johnson', 'Keppler',
+        'Lovett', 'Newkirk', 'Oak', 'Paul', 'Quill', 'River', 'Schmidt', 'Thorton', 'Underhill', 'Violet', 'Weingartz', 'Yolk', 
+        'Zimmer']
+        occupations = ['an architect', 'a freelancer', 'a chef', 'a flight attendant', 'a nurse', 'a surgeon', 'a lawyer', 
+        'a waitress', 'an engineer', 'a consultant', 'a data scientist', 'a mechanic', 'a gym trainer', 'a farmer', 
+        'a real estate agent', 'unemployed']
+        all_traits = ['lazy', 'active', 'a neat freak', 'a slob', 'rude', 'polite', 'impatient', 'sensitive', 'a foodie', 'vegan', 
+        'caring', 'funny', 'family-oriented', 'artistic', 'a dog lover', 'a cat lover', 'a nerd', 'shy', 'talkative']
+        
+        if random.randint(0, 1) == 0:
+            gender = ('Woman', 'Her', 'She', 'Hers')
+            name = firstnames_f[random.randint(0, len(firstnames_f) - 1)] + ' ' + surnames[random.randint(0, len(surnames) - 1)]
+        else:
+            gender = ('Man', 'Him', 'He', 'His')
+            name = firstnames_m[random.randint(0, len(firstnames_m) - 1)] + ' ' + surnames[random.randint(0, len(surnames) - 1)]
+        age = random.randint(20, 55)
+        job = occupations[random.randint(0, len(occupations) - 1)]
+        
+        traits = []
+        for n in range(3):
+            random_trait = all_traits[random.randint(0, len(all_traits) - 1)]
+            traits.append(all_traits.pop(all_traits.index(random_trait)))
+            if random_trait == 'lazy':
+                all_traits.remove('active')
+            if random_trait == 'active':
+                all_traits.remove('lazy')
+            if random_trait == 'a neat freak':
+                all_traits.remove('a slob')
+            if random_trait == 'a slob':
+                all_traits.remove('a neat freak')
+            if random_trait == 'rude':
+                all_traits.remove('polite')
+            if random_trait == 'polite':
+                all_traits.remove('rude')
+        
+        print()
+        print(name, 'is a', str(age) + '-year-old', gender[0].lower(), 'who is', job + '.')
+        print(gender[2], 'is', traits[0] + ',', traits[1] + ', and', traits[2] + '.')
+        
+        generate_character = input('\nDo you want to generate another character? ')
+
+main()
+
+
+```
+
 [_<<Back_](Volunteerwork_and_Community_Involvement.md "volunteerwork and etc.") [Home](README.md) [_Next>>_](Hobbies_and_Interests.md "hobbies and interests")
