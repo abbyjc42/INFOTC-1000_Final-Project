@@ -12,7 +12,7 @@ I've always loved to learn about subjects that interest me, and outside of schoo
 
 About two years ago, my family made another major move. Now we live in Columbia, close to the University of Missouri but in a neighborhood set apart from the busier part of the city. Being homeschooled throughout my highscool years made the transition easier, since I didn't have many deep connections to sever and was able to keep up with work while we fixed up our new place.
 
-I really like living in Columbia - there's a variety of things to do and it's well-suited to the lifestyle my family leads right now. There is a range of [restaurants][Taste Place] and [businesses][Papa's] that cater to different peoples' interests, plus nature trails and parks like the MKT, Shelter Gardens, or Stevens Lake that allow you to get fresh air without having to go far.
+I really like living in Columbia - there's a variety of things to do and it's well-suited to the lifestyle my family leads right now. There is a range of [restaurants][Taste Place] and [businesses][Papa's] that cater to different peoples' interests, plus nature trails and parks like the MKT, Shelter Gardens, or Stephens Lake that allow you to get fresh air without having to go far.
 
 [Home](README.md "back to homepage") [_Next>>_](Education.md "education")
 
