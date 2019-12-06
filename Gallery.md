@@ -16,5 +16,13 @@ Here are a few examples of my art. I have a mix of different kinds of traditiona
 ![Peter Parker](peterparker.png)
 ![Plant Fairy](fae.png)
 
+**Digital:**
+
+![Digital Sketch](Genesis.png)
+![Despair](Lost.png)
+![Marco](Marco.png)
+![Craxie 2](OriginalCharacter_Craxie(small).png)
+![Roxo](OriginalCharacter_Roxo.png)
+![Siko](OriginalCharacter_Siko.png)
 
 [_<<Back_](Hobbies_and_Interests.md "hobbies and interests") [Home](README.md)
